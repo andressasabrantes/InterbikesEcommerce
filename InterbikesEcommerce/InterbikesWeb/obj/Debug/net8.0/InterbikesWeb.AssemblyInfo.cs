@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterbikesWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e248c6a888a2c8ad17bc374152dc7c1e0c5564fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+927738833842debf462336b06df32e20ec993ba8")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterbikesWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterbikesWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
