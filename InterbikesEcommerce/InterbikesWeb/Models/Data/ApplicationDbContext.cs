@@ -8,5 +8,7 @@ namespace InterbikesWeb.Models.Data
         {
             
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
