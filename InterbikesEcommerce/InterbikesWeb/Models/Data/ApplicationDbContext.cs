@@ -14,9 +14,9 @@ namespace InterbikesWeb.Models.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
-                new Category { Id = 1, Name = "Bikes", DisplayOrder = 1},
-                new Category { Id = 2, Name = "Accessories", DisplayOrder = 2},
-                new Category { Id = 3, Name = "Components", DisplayOrder = 3}
+                new Category { Id = 1, Name = "Bicicleta", DisplayOrder = 1},
+                new Category { Id = 2, Name = "Acessorios", DisplayOrder = 2},
+                new Category { Id = 3, Name = "Pecas", DisplayOrder = 3}
                 );
         }
     }
