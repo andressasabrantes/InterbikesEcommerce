@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5415558B-F874-4FFE-B212-CFFA9A696D65}|InterbikesWeb\\InterbikesWeb.csproj|c:\\users\\andre\\onedrive\\\u00E1rea de trabalho\\interbikesecommerce\\interbikesecommerce\\interbikesweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5415558B-F874-4FFE-B212-CFFA9A696D65}|InterbikesWeb\\InterbikesWeb.csproj|solutionrelative:interbikesweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5415558B-F874-4FFE-B212-CFFA9A696D65}|InterbikesWeb\\InterbikesWeb.csproj|c:\\users\\andre\\onedrive\\\u00E1rea de trabalho\\interbikesecommerce\\interbikesecommerce\\interbikesweb\\models\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5415558B-F874-4FFE-B212-CFFA9A696D65}|InterbikesWeb\\InterbikesWeb.csproj|solutionrelative:interbikesweb\\models\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +24,9 @@
               "RelativeDocumentMoniker": "InterbikesWeb\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\InterbikesWeb\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "InterbikesWeb\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T20:13:11.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\InterbikesWeb\\Models\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "InterbikesWeb\\Models\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\InterbikesWeb\\Models\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "InterbikesWeb\\Models\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T18:11:48.759Z",
               "EditorCaption": ""
             }
           ]
