@@ -26,6 +26,10 @@ namespace InterbikesWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("name", "O código de Identificação não pode ser o mesmo que o Nome da Categoria.");
+            }
             if (ModelState.IsValid)
             {
                 _db.Categories.Add(obj);
@@ -33,7 +37,6 @@ namespace InterbikesWeb.Controllers
                 return RedirectToAction("Index");
             }
             return View();
-            
         }
     }
 }
