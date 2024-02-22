@@ -5,24 +5,24 @@
         <div class="row pb-2">
             <h2 class="text-primary">Nova Categoria</h2>
             <hr />
-            <div class="mb-3">
-                <label class="p-0">Nome da Categoria</label>
-                <input type="text" class="form-control" />
-            </div>
-            <div class="mb-3">
-                <label class="p-0">Código de Identificação</label>
-                <input type="text" class="form-control" />
-            </div>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name" class="p-0"></label>
+            <input tasp-for="Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="DisplayOrder" class="p-0"></label>
+            <input asp-for="DisplayOrder" class="form-control" />
+        </div>
             
-            <div class="row">
-                <div class="col-6 col-md-6">
-                    <button type="submit" class="btn btn-primary form-control" >Criar</button>
-                </div>
-                <div class="col-6 col-md-6">
-                    <a asp-controller="Category" asp-action="Index" class="btn btn-secondary border form-control">
-                        Voltar
-                    </a>
-                </div>
+        <div class="row">
+            <div class="col-6 col-md-6">
+                <button type="submit" class="btn btn-primary form-control" >Criar</button>
+            </div>
+            <div class="col-6 col-md-6">
+                <a asp-controller="Category" asp-action="Index" class="btn btn-secondary border form-control">
+                    Voltar
+                </a>
             </div>
         </div>
     </div>
