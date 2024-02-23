@@ -34,6 +34,7 @@ namespace InterbikesWeb.Controllers
             {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Categoria criada com sucesso!"; 
                 return RedirectToAction("Index");
             }
             return View();
@@ -60,6 +61,7 @@ namespace InterbikesWeb.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Categoria editada com sucesso!";
                 return RedirectToAction("Index");
             }
             return View();
@@ -92,6 +94,7 @@ namespace InterbikesWeb.Controllers
 
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["success"] = "Categoria deletada com sucesso!";
             return RedirectToAction("Index");
         }
     }
