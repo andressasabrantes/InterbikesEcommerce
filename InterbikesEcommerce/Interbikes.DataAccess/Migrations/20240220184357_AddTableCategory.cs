@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace InterbikesWeb.Migrations
+namespace Interbikes.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddTableCategory : Migration

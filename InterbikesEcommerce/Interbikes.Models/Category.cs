@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace InterbikesWeb.Models
+namespace Interbikes.Models
 {
     public class Category
     {
@@ -11,7 +11,7 @@ namespace InterbikesWeb.Models
         [MaxLength(30, ErrorMessage = "O nome da categoria deve ter no máximo 30 caracteres.")]
         [DisplayName("Nome da Categoria")]
         public string Name { get; set; }
-        [Range(1,100,ErrorMessage = "O código de Identificação deve ser entre 1-100 caracteres.")]
+        [Range(1, 100, ErrorMessage = "O código de Identificação deve ser entre 1-100 caracteres.")]
         [Required(ErrorMessage = "O campo é obrigatório.")]
         [DisplayName("Código de Identificação")]
         public int? DisplayOrder { get; set; }

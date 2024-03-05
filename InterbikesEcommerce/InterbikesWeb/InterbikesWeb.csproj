@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Interbikes.DataAccess\Interbikes.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

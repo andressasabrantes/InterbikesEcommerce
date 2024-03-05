@@ -1,4 +1,4 @@
-namespace InterbikesWeb.Models
+namespace Interbikes.Models
 {
     public class ErrorViewModel
     {

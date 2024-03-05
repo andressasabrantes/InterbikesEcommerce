@@ -1,4 +1,4 @@
-using InterbikesWeb.Models;
+using Interbikes.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

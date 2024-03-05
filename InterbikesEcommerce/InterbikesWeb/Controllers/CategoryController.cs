@@ -1,5 +1,5 @@
-﻿using InterbikesWeb.Models;
-using InterbikesWeb.Models.Data;
+﻿using Interbikes.Models;
+using InterbikesWeb.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InterbikesWeb.Controllers

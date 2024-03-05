@@ -1,4 +1,4 @@
-using InterbikesWeb.Models.Data;
+using InterbikesWeb.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

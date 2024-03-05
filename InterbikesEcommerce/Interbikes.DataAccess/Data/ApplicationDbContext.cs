@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Interbikes.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace InterbikesWeb.Models.Data
+namespace InterbikesWeb.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {
