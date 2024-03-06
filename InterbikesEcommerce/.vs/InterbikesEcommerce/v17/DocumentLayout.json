@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|c:\\users\\andre\\onedrive\\\u00E1rea de trabalho\\interbikesecommerce\\interbikesecommerce\\interbikes.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|solutionrelative:interbikes.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|c:\\users\\andre\\onedrive\\\u00E1rea de trabalho\\interbikesecommerce\\interbikesecommerce\\interbikes.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|solutionrelative:interbikes.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|c:\\users\\andre\\onedrive\\\u00E1rea de trabalho\\interbikesecommerce\\interbikesecommerce\\interbikes.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|solutionrelative:interbikes.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|c:\\users\\andre\\onedrive\\\u00E1rea de trabalho\\interbikesecommerce\\interbikesecommerce\\interbikes.dataaccess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|solutionrelative:interbikes.dataaccess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|c:\\users\\andre\\onedrive\\\u00E1rea de trabalho\\interbikesecommerce\\interbikesecommerce\\interbikes.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{735761F2-89EA-499C-8647-1111C768CA61}|Interbikes.DataAccess\\Interbikes.DataAccess.csproj|solutionrelative:interbikes.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5415558B-F874-4FFE-B212-CFFA9A696D65}|InterbikesWeb\\InterbikesWeb.csproj|c:\\users\\andre\\onedrive\\\u00E1rea de trabalho\\interbikesecommerce\\interbikesecommerce\\interbikesweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5415558B-F874-4FFE-B212-CFFA9A696D65}|InterbikesWeb\\InterbikesWeb.csproj|solutionrelative:interbikesweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +31,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Interbikes.DataAccess\\Repository\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\CategoryRepository.cs",
-              "RelativeToolTip": "Interbikes.DataAccess\\Repository\\CategoryRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T18:12:54.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Interbikes.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
               "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
               "RelativeToolTip": "Interbikes.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T18:07:41.197Z",
+              "WhenOpened": "2024-03-06T21:13:13.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Interbikes.DataAccess\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\Repository.cs",
-              "RelativeToolTip": "Interbikes.DataAccess\\Repository\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T17:46:49.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\IRepository\\IRepository.cs",
               "RelativeDocumentMoniker": "Interbikes.DataAccess\\Repository\\IRepository\\IRepository.cs",
               "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\IRepository\\IRepository.cs",
               "RelativeToolTip": "Interbikes.DataAccess\\Repository\\IRepository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T17:29:10.761Z"
+              "WhenOpened": "2024-03-06T21:13:11.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Interbikes.DataAccess\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\Interbikes.DataAccess\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "Interbikes.DataAccess\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwA8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T21:12:47.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\InterbikesWeb\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "InterbikesWeb\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\InterbikesWeb\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "InterbikesWeb\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAwwFkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T18:27:11.947Z",
+              "EditorCaption": ""
             }
           ]
         }

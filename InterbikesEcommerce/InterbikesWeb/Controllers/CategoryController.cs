@@ -1,4 +1,6 @@
-﻿using Interbikes.Models;
+﻿using Interbikes.DataAccess.Repository;
+using Interbikes.DataAccess.Repository.IRepository;
+using Interbikes.Models;
 using InterbikesWeb.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,15 +8,15 @@ namespace InterbikesWeb.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+        private readonly IUnitOfWork _unitOfWork;
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            List<Category> objCategoryList = _db.Categories.ToList();
+            List<Category> objCategoryList = _unitOfWork.Category.GetAll().ToList();
             return View(objCategoryList);
         }
 
@@ -32,8 +34,8 @@ namespace InterbikesWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Categories.Add(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Add(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Categoria criada com sucesso!"; 
                 return RedirectToAction("Index");
             }
@@ -46,7 +48,7 @@ namespace InterbikesWeb.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _db.Categories.Find(id);
+            Category? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
             return View(categoryFromDb);
         }
 
@@ -59,8 +61,8 @@ namespace InterbikesWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Update(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Categoria editada com sucesso!";
                 return RedirectToAction("Index");
             }
@@ -73,7 +75,7 @@ namespace InterbikesWeb.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _db.Categories.Find(id);
+            Category? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
 
             if (categoryFromDb == null)
             {
@@ -85,15 +87,15 @@ namespace InterbikesWeb.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePost(int id)
         {
-            Category? obj = _db.Categories.Find(id);
+            Category? obj = _unitOfWork.Category.Get(u => u.Id == id);
 
             if(obj == null)
             {
                 return NotFound();
             }
 
-            _db.Categories.Remove(obj);
-            _db.SaveChanges();
+            _unitOfWork.Category.Remove(obj);
+            _unitOfWork.Save();
             TempData["success"] = "Categoria deletada com sucesso!";
             return RedirectToAction("Index");
         }
