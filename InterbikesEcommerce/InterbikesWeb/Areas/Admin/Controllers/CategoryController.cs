@@ -4,8 +4,9 @@ using Interbikes.Models;
 using InterbikesWeb.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
 
-namespace InterbikesWeb.Controllers
+namespace InterbikesWeb.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -36,7 +37,7 @@ namespace InterbikesWeb.Controllers
             {
                 _unitOfWork.Category.Add(obj);
                 _unitOfWork.Save();
-                TempData["success"] = "Categoria criada com sucesso!"; 
+                TempData["success"] = "Categoria criada com sucesso!";
                 return RedirectToAction("Index");
             }
             return View();
@@ -89,7 +90,7 @@ namespace InterbikesWeb.Controllers
         {
             Category? obj = _unitOfWork.Category.Get(u => u.Id == id);
 
-            if(obj == null)
+            if (obj == null)
             {
                 return NotFound();
             }

@@ -2,8 +2,9 @@ using Interbikes.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace InterbikesWeb.Controllers
+namespace InterbikesWeb.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
