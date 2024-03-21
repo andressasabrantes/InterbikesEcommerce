@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,5 +29,9 @@ namespace Interbikes.Models
         [MinLength(30, ErrorMessage = "A descrição deve ter pelo menos 30 caracteres.")]
         [DisplayName("Drescrição do Produto")]
         public string Description { get; set; }
+
+        public int CategoryId { get; set; }
+        [ForeignKey("CategoryId")]
+        public Category Category { get; set; }
     }
 }
