@@ -30,6 +30,7 @@ namespace Interbikes.Models
         [DisplayName("Drescrição do Produto")]
         public string Description { get; set; }
 
+        [DisplayName("Categoria")]
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }

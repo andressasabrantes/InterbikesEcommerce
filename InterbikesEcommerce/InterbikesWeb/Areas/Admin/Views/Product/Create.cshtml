@@ -23,6 +23,14 @@
              <span asp-validation-for="Price" class="text-danger"></span>
         </div>
 
+            <div class="mb-3">
+                <label asp-for="CategoryId" class="p-0"></label>
+                <select asp-for="CategoryId" asp-items="ViewBag.CategoryList" class="form-select">
+                    <option disabled selected>--Selecione a Categoria--</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+
         <div class="mb-3">
             <label asp-for="Description" class="p-0"></label>
             <textarea asp-for="Description" class="form-control"></textarea>
