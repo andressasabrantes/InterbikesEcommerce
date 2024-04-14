@@ -81,9 +81,24 @@ namespace InterbikesWeb.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            Product? productFromDb = _unitOfWork.Product.Get(u => u.Id == id);
+            Product productFromDb = _unitOfWork.Product.Get(u => u.Id == id);
 
-            return View(productFromDb);
+            if (productFromDb == null)
+            {
+                return NotFound();
+            }
+
+            ProductVM productVM = new ProductVM
+            {
+                CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                }),
+                Product = productFromDb
+            };
+
+            return View(productVM);
         }
 
         [HttpPost]

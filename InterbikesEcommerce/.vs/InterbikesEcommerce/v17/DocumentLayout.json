@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "InterbikesWeb\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
               "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\InterbikesWeb\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
               "RelativeToolTip": "InterbikesWeb\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-14T01:21:27.117Z",
               "EditorCaption": ""
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "InterbikesWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\InterbikesWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeToolTip": "InterbikesWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAnAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-01T18:03:02.57Z",
               "EditorCaption": ""
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "InterbikesWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\andre\\OneDrive\\\u00C1rea de Trabalho\\InterbikesEcommerce\\InterbikesEcommerce\\InterbikesWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "InterbikesWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAlwC0AAAAMAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAQwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T22:19:51.476Z",
               "EditorCaption": ""
@@ -101,8 +101,7 @@
               "RelativeToolTip": "InterbikesWeb\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T00:09:38.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T00:09:38.809Z"
             },
             {
               "$type": "Document",
